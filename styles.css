@@ -1,0 +1,47 @@
+/* 
+    Requirements:
+    Build from "scratch"
+
+    Make sure to use:
+        Classes
+        Flexbox
+        Background-Image
+        Provided Color Pallete (actually option to replace with our own, just find one on "coolors"
+*/
+
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+.section-welcome {
+    background-image: "images\bothell-bridge.jpg";
+}
+
+.section-activities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-activity {
+    width: 300px;
+
+}
+
+.section-guide {
+    margin: 30px auto;
+}
+
+#your-guide {
+    background-color: ;
+}
