@@ -7,44 +7,62 @@
 
     <head>
         <title>Hometown Homepage for Bothell, Washington</title>
+        <link rel="stylesheet" href="styles.css"></link>
     </head>
     <body>
-        <div class="section-welcome">
-            <h1>Visit Bothell</h1>
-            <p>Enjoy culture and sports in this vibrant close to the center of Oslo. [replace]</p>
+    <!-- Attempt to fix json launch error in VS code -->
+        <script src="script.js"></script>
+
+        <!-- HERO SECTION -->
+        <div class="section-hero">
+            <div>
+                <h1 id="title-visit">Visit Bothell</h1>
+                <p id="subtitle-visit">Enjoy culture and sports in this vibrant close to the center of Oslo. [replace]</p>    
+            </div>
         </div>
+
+        <!-- ACTIVITIES SECTION -->
         <div class="section-activities">
-            <div class="section-activity">
-                <h2>
-                    Activity 1
-                </h2>
-                <p>
-                    Description of activity 1
-                </p>
-            </div>
-            <div class="section-activity">
-                <h2>
-                    Activity 2
-                </h2>
-                <p>
-                    Description of activity 2
-                </p>
-            </div>
-            <div class="section-activity">
-                <h2>
-                    Activity 3
-                </h2>
-                <p>
-                    Description of activity 3
-                </p>
-            </div>
+            <h2>The top 3 things to do in Bothell, Washington</h2>
+            <div class="section-highlighted-activities">
+                <div class="section-activity">
+                    <img class="image-activity" src="images/uwbothell-crows.jpg" alt="A skyward view of crows flying above the buildings at the University of Washington Bothell campus">
+                    <h2>
+                        Attempted "Murder" at Cascadia/UW Bothell
+                    </h2>
+                    <p>
+                        Watch the crows gather in droves at the campus of UW Bothell/Cascadia in the Autumn months. The college has gone to great lengths to make their campus friendly to local wildlife and the birds love to roost here.
+                    </p>
+                </div>
+                <div class="section-activity">
+                    <img class="image-activity" src="images/sammmish-river-trail.jpg" alt="A photo overlooking the Sammamish River trail winding alongside the Sammamish River">
+                    <h2>
+                        Burke Gilman / Sammamish River Trail
+                    </h2>
+                    <p>
+                        Take a walk or ride a bike on this trail along the Sammamish River. Ranging from city one to city two, there is a lot of distance to travel and enjoy including stops at several parks along the way.
+                    </p>
+                </div>
+                <div class="section-activity">
+                    <img class="image-activity" src="images/uwbothell-crows.jpg" alt="A skyward view of crows flying above the buildings at the University of Washington Bothell campus">
+                    <h2>
+                        Third thing here
+                    </h2>
+                    <p>
+                        Description of activity 3
+                    </p>
+                </div>
+            </div> <!-- End Activities section-->
         </div>
+        <!--- GUIDE SECTION -->
         <div class="section-guide">
             <div id="your-guide">
-                <h3>Your Guide</h3>
-                <p>A blurb about me living in Bothell for most of my</p>
-                <h4>John Okleberry</h4>
-                <img src="images\guide-photo.jpg" alt="picture of John Okleberry at Bothell Landing" width="100px">
+                <div>
+                    <h3>Your Guide</h3>
+                    <p id="your-guide-blurb">A blurb about me living in Bothell for most of my</p>
+                    <h4>John Okleberry</h4>
+                </div>
+                <img id="img-your-guide" src="images\guide-photo.jpg" alt="picture of John Okleberry at Bothell Landing">
             </div>
         </div>
     </body>

@@ -7,6 +7,14 @@
         Flexbox
         Background-Image
         Provided Color Pallete (actually option to replace with our own, just find one on "coolors"
+
+        STRETCH GOALS
+
+        -Make it about my hometown
+        -Use a different color palette
+        -Add a Google Font
+        -Find a way to user :hover
+        -Add a whole new section
 */
 
 /**
@@ -22,26 +30,90 @@ DARK BLUE: #1D3557
 body {
     margin: 0px;
     text-align: center;
+    border-radius: 20px;
+    color: #1D3557
 }
 
-.section-welcome {
-    background-image: "images\bothell-bridge.jpg";
+/* Hero Section */
+
+#title-visit {
+    background-color: #1D3557;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px auto;
 }
+
+#subtitle-visit {
+    background-color: #457B9D;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.section-hero {
+    text-align: center;
+    background-image: url("images/bothell-bridge.jpg");  
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Activity Section */
 
 .section-activities {
+    background-color: #F1FAEE;
+    padding: 10px;
+}
+
+.section-highlighted-activities {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
+    align-items: start;
 }
 
 .section-activity {
     width: 300px;
-
+    padding: 20px;
 }
+
+.image-activity {
+    border-radius: 50%;
+    width: 200px;
+}
+
+
+/* Guide Section */
 
 .section-guide {
     margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #your-guide {
-    background-color: ;
+    display: flex;
+    background-color: #A8DADC;
+    border-bottom: 10px solid #1D3557;
+    width: 400px;
+    border-radius: 10px;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+}
+
+#your-guide-blurb {
+    font-style: italic;
+    padding: 10px;
+}
+
+#img-your-guide {
+    width: 100px;
+    margin: 15px 0px;
+    border-radius: 10px;
 }
