@@ -34,6 +34,10 @@ body {
     color: #1D3557
 }
 
+h3 {
+    font-size: 30px;
+}
+
 /* Hero Section */
 
 #title-visit {
@@ -52,7 +56,7 @@ body {
 
 .section-hero {
     text-align: center;
-    background-image: url("images/bothell-bridge.jpg");  
+    background-image: url("images/bothell-bridge-new.jpg");  
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
@@ -89,7 +93,8 @@ body {
 /* Guide Section */
 
 .section-guide {
-    margin: 30px auto;
+    margin: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -113,7 +118,7 @@ body {
 }
 
 #img-your-guide {
-    width: 100px;
-    margin: 15px 0px;
+    width: 200px;
+    margin: 10px 0px;
     border-radius: 10px;
 }
