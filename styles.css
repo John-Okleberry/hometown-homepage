@@ -10,11 +10,15 @@
 
         STRETCH GOALS
 
-        -Make it about my hometown
-        -Use a different color palette
-        -Add a Google Font
-        -Find a way to user :hover
+        -Make it about my hometown (Complete)
+        -Use a different color palette (I tried a few and actually prefer the original, it works well with the greens and blues in the photos
+        -Add a Google Font (Complete)
+        -Find a way to user :hover (Complete)
         -Add a whole new section
+
+    Considered Fonts: Fira Sans Condensed
+ 
+
 */
 
 /**
@@ -31,8 +35,8 @@ body {
     margin: 0px;
     text-align: center;
     border-radius: 20px;
-    color: #1D3557
-}
+    color: #1D3557;
+    font-family: "Fira Sans Condensed", sans-serif;}
 
 h3 {
     font-size: 30px;
@@ -45,6 +49,7 @@ h3 {
     border-radius: 10px;
     width: 200px;
     margin: 10px auto;
+    border: solid 1px #F1FAEE 
 }
 
 #subtitle-visit {
@@ -52,6 +57,7 @@ h3 {
     border-radius: 10px;
     width: 300px;
     margin: 10px auto;
+    border: solid 1px #F1FAEE 
 }
 
 .section-hero {
@@ -87,6 +93,13 @@ h3 {
 .image-activity {
     border-radius: 50%;
     width: 200px;
+}
+
+.section-activity:hover {
+    border: black dashed 1px;
+    border-radius: 25px;
+    background-color: #F1FAFF;
+    
 }
 
 
