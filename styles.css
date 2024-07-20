@@ -36,11 +36,33 @@ body {
     text-align: center;
     border-radius: 20px;
     color: #1D3557;
-    font-family: "Fira Sans Condensed", sans-serif;}
+    font-family: "Fira Sans Condensed", sans-serif;
+
+}
+
+li {
+    list-style: none;
+}
 
 h3 {
     font-size: 30px;
 }
+
+/* Hiding link visibility for aesthetics*/
+
+a {
+    text-decoration: none;
+    color: none;
+}
+
+a:link {
+    color: #1D3557;
+}
+
+a:visited {
+    color: #1D3557;
+}
+
 
 /* Hero Section */
 
@@ -88,6 +110,7 @@ h3 {
 .section-activity {
     width: 300px;
     padding: 20px;
+    border: #F1FAEE dashed 1px; /* An invisible border so that the activities don't shift when the hover border exists*/
 }
 
 .image-activity {
