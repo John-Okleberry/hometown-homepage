@@ -158,3 +158,25 @@ a:visited {
     margin: 10px 0px;
     border-radius: 10px;
 }
+
+/* Activity Pages */
+
+.page-activity-content {
+    text-align: left; 
+    padding: 0px 150px;
+    width: 700px;
+    margin: 0px auto;
+}
+
+.button-home {
+    border: #F1FAEE solid 1px;
+    border-radius: 25px; 
+    padding: 5px;
+    font-weight: bold;
+}
+
+.button-home:hover {
+    border: black dashed 1px;
+    border-radius: 25px;
+    background-color: #F1FAFF;
+}
