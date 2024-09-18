@@ -1,12 +1,14 @@
 # hometown-homepage
 
-![Preview image of the final Hometown Homepage](images\project-hometown-homepage.jpg)
+![Preview image of the final Hometown Homepage](images/project-hometown-homepage.jpg)
 
 ## Project Overview 
-"Hometown Homepage" is a website for selling a traveler on a visit to my hometown Bothell, Washington. Basic HTML, and CSS are both demonstrated with. Stretch goals were completed and functionality was expanded beyond the original scope. Added functionality includes highlighting things to do on hover, adding multiple pages and adding return navigation that also utilized hover mechanics.
+"Hometown Homepage" is a website for selling a traveler on a visit to my hometown Bothell, Washington. Basic HTML, and CSS are both demonstrated. Stretch goals were completed and functionality was expanded beyond the original scope. Added functionality includes highlighting page elements on hover, 3 additional pages with details for each attraction, all information was replaced with information relating to my hometown and a new Google Font (Fire Sans) was utilized. Several color palettes were considered but none looked better than the original palette. The original site sample was duplicated to fulfill the original requirements before stretch goals were targeted.
 
 
 ## Features
+
+![Example image included with requirements for Hometown Homepage](images/requirements-hometown-homepage.png)
 
 __Requirements:__ <br/>
 - Build it from "scratch" (Figma file provided)
@@ -28,21 +30,22 @@ __Stretch Goals:__ <br/>
 
 **My Implementation:**<br/>
 
-- I started by replacing all of the content on the original site with information 
+- I started by replacing all of the text and image content on the original site with information about myself and my hometown
+- Hover funcationality was added to highlight each attraction as clickable
+- New pages were added to contain detailed information about each attraction
+- Return navigation was added to content pages that also utilized hover functionality
+- The "Fire Sans" Google Font was added to the page
+- Several color palettes at Coolors.co were considered but none matched the blues and greens of my source images as well
 
 ## Challenges and Learning
 
-### DOM Element Initialization Order
+### Code Review Notes
 
-I received an error indicating that the boardClock wasn't initialized before it was access. With clarification from ChatGPT, I learned that this can occur if the JavaScript code runs before the DOM is fully constructed. The solution to address this issue was to set the script tag for the JavaScript just before the closing body tag in the HTML. This ensured that the DOM elements were created before the code was run and resolved the issue.
-
-### Calling SetInterval
-
-I received an error that I had called setInterval incorrectly. With some assistance from ChatGPT, I learned that I should not pass countDown as a function call but as a reference to the function. I made this change by removing the () from the function within the setInterval parameter list. Before doing so, the countDown function would be referenced immediately, rather than as called for by the setInterval function.
-
-### Clearing SetInterval
-
-While reviewing this information, ChatGPT also highlighted the importance of using clearInterval() to ensure that multiple countdown instances did not exist simultaneously.
+- Encouraged to avoid using IDs when possible, this allows for application of CSS properties to additional objects just by including an additional class rather than revising an ID to fit more elements. I have noted this advice during my Scrimba studies but did not keep the thought as part of my focus when creating this project.
+- One clarifying comment from the mentor was that ids are primarily used for connecting JavaScript to specific elements
+- Media Queries were suggested to make the page adjust to various sizes more cleanly. I had some experience from a long time ago with media queries but they had not been covered in the course material up to the point when I created the project so I wasn't as concerned with reviewing and practicing them while making the project
+- Encouraged to approach the page with a mobile-first design. This makes sense to me in general, my original focus was to match the provided sample page as closely as possible but I'll keep this in mind for any revisions to the project.
+- While watching a Scrim created by the code reviewer, I noted that some elements which appear centered for me appeared left-aligned in the video. My Scrim did not reflect this and neither did the live site so I wondered if this might be a browser-unique issue or something else.
 
 
 ## Installation
