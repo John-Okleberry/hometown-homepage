@@ -37,7 +37,7 @@ body {
     border-radius: 20px;
     color: #1D3557;
     font-family: "Fira Sans Condensed", sans-serif;
-
+    max-width: 100%;
 }
 
 li {
@@ -46,6 +46,15 @@ li {
 
 h3 {
     font-size: 30px;
+}
+
+
+/* Utility Classes */
+
+.clickable:hover {
+    border: black dashed 1px;
+    border-radius: 25px;
+    background-color: #F1FAFF;   
 }
 
 /* Hiding link visibility for aesthetics*/
@@ -108,7 +117,6 @@ a:visited {
 }
 
 .section-activity {
-    width: 300px;
     padding: 20px;
     border: #F1FAEE dashed 1px; /* An invisible border so that the activities don't shift when the hover border exists*/
 }
@@ -117,14 +125,6 @@ a:visited {
     border-radius: 50%;
     width: 200px;
 }
-
-.section-activity:hover {
-    border: black dashed 1px;
-    border-radius: 25px;
-    background-color: #F1FAFF;
-    
-}
-
 
 /* Guide Section */
 
@@ -159,13 +159,13 @@ a:visited {
     border-radius: 10px;
 }
 
+
 /* Activity Pages */
 
 .page-activity-content {
     text-align: left; 
     padding: 0px 150px;
-    width: 700px;
-    margin: 0px auto;
+    margin: 0px 30px;
 }
 
 .button-home {
@@ -175,8 +175,3 @@ a:visited {
     font-weight: bold;
 }
 
-.button-home:hover {
-    border: black dashed 1px;
-    border-radius: 25px;
-    background-color: #F1FAFF;
-}
